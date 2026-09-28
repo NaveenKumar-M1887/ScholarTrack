@@ -1,0 +1,9 @@
+POST http://localhost:8081/api/students
+Content-Type: application/json
+
+{
+  "name": "",
+  "email": "wrong-email",
+  "annualIncome": -100,
+  "marks": -5
+}
